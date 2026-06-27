@@ -1,4 +1,3 @@
-project('proxy', 'c',
-  default_options: ['c_std=c99', 'warning_level=3', 'optimization=2'])
+project('proxy', 'c')
 
 executable('proxy', 'proxy.c', install: true)
