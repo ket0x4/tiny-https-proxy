@@ -1,3 +1,3 @@
 project('proxy', 'c')
 
-executable('proxy', 'proxy.c', install: true)
+executable('proxy', ['proxy.c', 'utils.c'], install: true)
